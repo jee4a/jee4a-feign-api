@@ -1,7 +1,8 @@
 # jee4a-feign-api
 
 
-springcloud 客户端负载均衡之 ribbon，断熔器 之 hystrix<br>
+spring cloud 之 声明式接口调用 feign<br> 
+依赖公共的 api 接口： jee4a-user-service-api<br> 
 
 1、<br>
 前提：<br>
