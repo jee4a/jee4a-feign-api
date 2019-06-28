@@ -1,5 +1,5 @@
 # jee4a-feign-api
-
+作为数据聚合
 
 spring cloud 之 声明式接口调用 feign<br> 
 依赖公共的 api 接口： jee4a-user-service-api<br> 
