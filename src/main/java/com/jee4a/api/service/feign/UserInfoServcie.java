@@ -1,8 +1,8 @@
-package com.jee4a.feign.api.service;
+package com.jee4a.api.service.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 
-import com.jee4a.feign.api.service.fallback.UserInfoServcieFallBack;
+import com.jee4a.api.service.feign.fallback.UserInfoServcieFallBack;
 import com.jee4a.user.api.interfaces.UserApiServcie;
 
 /**

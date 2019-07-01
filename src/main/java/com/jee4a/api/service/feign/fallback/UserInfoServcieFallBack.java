@@ -1,6 +1,6 @@
-package com.jee4a.feign.api.service.fallback;
+package com.jee4a.api.service.feign.fallback;
 
-import com.jee4a.feign.api.service.UserInfoServcie;
+import com.jee4a.api.service.feign.UserInfoServcie;
 import com.jee4a.user.api.model.UserModel;
 
 /**
