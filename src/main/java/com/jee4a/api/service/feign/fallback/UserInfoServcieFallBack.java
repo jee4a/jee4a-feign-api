@@ -1,6 +1,6 @@
 package com.jee4a.api.service.feign.fallback;
 
-import com.jee4a.api.service.feign.UserInfoServcie;
+import com.jee4a.user.api.interfaces.UserApi;
 import com.jee4a.user.api.model.UserModel;
 
 /**
@@ -8,7 +8,7 @@ import com.jee4a.user.api.model.UserModel;
  * @author tpeng 2019年6月27日
  * @email 398222836@qq.com
  */
-public class UserInfoServcieFallBack implements UserInfoServcie {
+public class UserInfoServcieFallBack implements UserApi {
 
 	@Override
 	public String queryUserById(Integer id) {

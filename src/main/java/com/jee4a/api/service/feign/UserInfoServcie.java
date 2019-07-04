@@ -3,7 +3,7 @@ package com.jee4a.api.service.feign;
 import org.springframework.cloud.openfeign.FeignClient;
 
 import com.jee4a.api.service.feign.fallback.UserInfoServcieFallBack;
-import com.jee4a.user.api.interfaces.UserApiServcie;
+import com.jee4a.user.api.interfaces.UserApi;
 
 /**
  * <p></p> 
@@ -11,6 +11,6 @@ import com.jee4a.user.api.interfaces.UserApiServcie;
  * @email 398222836@qq.com
  */
 @FeignClient(value="USER-SERVICE",fallback=UserInfoServcieFallBack.class)
-public interface UserInfoServcie extends UserApiServcie {
+public interface UserInfoServcie extends UserApi{
 
 }
